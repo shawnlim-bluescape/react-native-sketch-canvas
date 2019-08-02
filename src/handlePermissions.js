@@ -1,6 +1,8 @@
 import { PermissionsAndroid, Platform } from 'react-native';
 
 export const requestPermissions = async (permissionDialogTitle, permissionDialogMessage) => {
+  return false;
+  /*
     if (Platform.OS === 'android') {
         const granted = await PermissionsAndroid.request(PermissionsAndroid.PERMISSIONS.WRITE_EXTERNAL_STORAGE, {
             title: permissionDialogTitle,
@@ -14,4 +16,5 @@ export const requestPermissions = async (permissionDialogTitle, permissionDialog
         return isAuthorized;
     }
     return true;
+    */
 }
