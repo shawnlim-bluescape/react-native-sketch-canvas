@@ -3,7 +3,7 @@ react-native-sketch-canvas
 
 A React Native component for drawing by touching on both iOS and Android.
 
-This is a fork from https://github.com/gigasz/react-native-sketch-canvas
+This is a fork from https://github.com/shawnlim/react-native-sketch-canvas
 
 <img src="https://media.giphy.com/media/3ov9kbuQg8ayvoYG8E/giphy.gif" height="400" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media.giphy.com/media/3ov9jNZooUPTbWWbh6/giphy.gif" height="400" />
 <br/>
@@ -48,7 +48,7 @@ import {
   View,
 } from 'react-native';
 
-import { SketchCanvas } from '@gigasz/react-native-sketch-canvas';
+import { SketchCanvas } from '@shawnlim/react-native-sketch-canvas';
 
 export default class example extends Component {
   render() {
@@ -127,7 +127,7 @@ import {
   Alert,
 } from 'react-native';
 
-import RNSketchCanvas from '@gigasz/react-native-sketch-canvas';
+import RNSketchCanvas from '@shawnlim/react-native-sketch-canvas';
 
 export default class example extends Component {
   render() {
@@ -378,4 +378,5 @@ Check full example app in the [example](./example) folder
 
 ## Troubleshooting
 -------------
-Please refer  [here](https://github.com/gigasz/react-native-sketch-canvas/wiki/Troubleshooting).
+Please refer  [here](https://github.com/shawnlim/react-native-sketch-canvas/wiki/Troubleshooting).
+

@@ -1,8 +1,8 @@
 {
-  "name": "shawnlim-bluescape/react-native-sketch-canvas",
+  "name": "@shawn.lim/react-native-sketch-canvas",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shawnlim-bluescape/react-native-sketch-canvas"
+    "url": "git+https://github.com/shawnlim-bluescape/react-native-sketch-canvas.git"
   },
   "version": "0.8.4",
   "description": "react-native-sketch-canvas allows you to draw / sketch on both iOS and Android devices and sync the drawing data between users. Of course you can save as image.",
@@ -21,5 +21,15 @@
     "canvas"
   ],
   "nativePackage": true,
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shawnlim-bluescape/react-native-sketch-canvas/issues"
+  },
+  "homepage": "https://github.com/shawnlim-bluescape/react-native-sketch-canvas#readme",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
