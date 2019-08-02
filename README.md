@@ -3,7 +3,7 @@ react-native-sketch-canvas
 
 A React Native component for drawing by touching on both iOS and Android.
 
-This is a fork from https://github.com/terrylinla/react-native-sketch-canvas
+This is a fork from https://github.com/gigasz/react-native-sketch-canvas
 
 <img src="https://media.giphy.com/media/3ov9kbuQg8ayvoYG8E/giphy.gif" height="400" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://media.giphy.com/media/3ov9jNZooUPTbWWbh6/giphy.gif" height="400" />
 <br/>
@@ -28,11 +28,11 @@ Features
 -------------
 Install from `npm` (only support RN >= 0.40)
 ```bash
-npm install @gigasz/react-native-sketch-canvas --save
+npm install shawnlim-bluescape/react-native-sketch-canvas --save
 ```
 Link native code
 ```bash
-react-native link @gigasz/react-native-sketch-canvas
+react-native link shawnlim-bluescape/react-native-sketch-canvas
 ```
 
 ## Usage
